@@ -10,5 +10,14 @@ productoGatoRouter.get('/', (req, res) => {
 })
 
 productoGatoRouter.get('/:id', (req, res) => {
-    res.json({ message: `Encontré el ID ${id} en productos`});
+    const {id} = req.params;
+
+    const productoGato = productosGato.find(p => p.id == id);
+
+    if(productoGato == null){
+        res.status(404).json({ message: 'perro Not Found'});
+        return;
+    }
+
+    res.status(200).json(productoGato);
 })

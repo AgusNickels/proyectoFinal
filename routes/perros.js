@@ -9,13 +9,13 @@ perroRouter.get('/', (req, res) => {
     res.json(perros);
 })
 
-perroRouter.get('/id', (req, res) => {
+perroRouter.get('/:id', (req, res) => {
     const {id} = req.params;
 
     const perro = perros.find(p => p.id == id);
 
     if(perro == null){
-        res.status(404).json({ message: 'Hero Not Found'});
+        res.status(404).json({ message: 'perro Not Found'});
         return;
     }
 
