@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "raza": "Siamés",
+    "medida": "mediano",
+    "origen": "Tailandia",
+    "descripcion": "Elegante, vocal y muy apegado a su dueño. Pelo corto y ojos azules intensos."
+  },
+  {
+    "id": 2,
+    "raza": "Maine Coon",
+    "medida": "grande",
+    "origen": "Estados Unidos",
+    "descripcion": "Uno de los gatos más grandes, muy amigable y con un pelaje largo y denso."
+  },
+  {
+    "id": 3,
+    "raza": "Persa",
+    "medida": "mediano",
+    "origen": "Irán",
+    "descripcion": "De pelo largo y carácter tranquilo. Requiere cuidados constantes en su pelaje."
+  },
+  {
+    "id": 4,
+    "raza": "Bengala",
+    "medida": "mediano",
+    "origen": "Estados Unidos",
+    "descripcion": "Aspecto salvaje como un leopardo en miniatura, muy activo y juguetón."
+  },
+  {
+    "id": 5,
+    "raza": "Ragdoll",
+    "medida": "grande",
+    "origen": "Estados Unidos",
+    "descripcion": "Muy dócil y cariñoso, tiende a relajarse completamente cuando lo levantan."
+  },
+  {
+    "id": 6,
+    "raza": "British Shorthair",
+    "medida": "mediano",
+    "origen": "Reino Unido",
+    "descripcion": "Gato robusto y tranquilo, con pelaje denso y ojos redondos y grandes."
+  },
+  {
+    "id": 7,
+    "raza": "Sphynx",
+    "medida": "mediano",
+    "origen": "Canadá",
+    "descripcion": "Gato sin pelo, muy afectuoso y curioso. Requiere cuidados especiales de piel."
+  },
+  {
+    "id": 8,
+    "raza": "Abisinio",
+    "medida": "pequeño",
+    "origen": "Etiopía",
+    "descripcion": "Activo, elegante y muy inteligente. Pelaje corto con coloración especial llamada 'ticking'."
+  },
+  {
+    "id": 9,
+    "raza": "Scottish Fold",
+    "medida": "pequeño",
+    "origen": "Escocia",
+    "descripcion": "Famoso por sus orejas dobladas hacia adelante, carácter dulce y calmado."
+  },
+  {
+    "id": 10,
+    "raza": "Bombay",
+    "medida": "pequeño",
+    "origen": "Estados Unidos",
+    "descripcion": "Pelaje completamente negro y brillante, con ojos cobrizos. Muy sociable y juguetón."
+  }
+]

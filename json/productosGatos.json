@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "nombre": "Rascador Torre Deluxe",
+    "categoria": "juguete",
+    "origen": "China",
+    "descripcion": "Torre con varios niveles para trepar, afilarse las uñas y descansar. Ideal para gatos activos."
+  },
+  {
+    "id": 2,
+    "nombre": "Arena Sanitaria Aglomerante",
+    "categoria": "higiene",
+    "origen": "Argentina",
+    "descripcion": "Arena con gran capacidad de absorción y control de olores. Fácil de limpiar."
+  },
+  {
+    "id": 3,
+    "nombre": "Bolso Transportador Plegable",
+    "categoria": "accesorio",
+    "origen": "Brasil",
+    "descripcion": "Bolso cómodo y ventilado para transportar gatos de manera segura y práctica."
+  },
+  {
+    "id": 4,
+    "nombre": "Comedero Doble Antideslizante",
+    "categoria": "alimentación",
+    "origen": "China",
+    "descripcion": "Dos compartimentos para agua y comida, con base antideslizante y fácil de lavar."
+  },
+  {
+    "id": 5,
+    "nombre": "Pelota con Pluma Interactiva",
+    "categoria": "juguete",
+    "origen": "China",
+    "descripcion": "Pelota con movimiento y plumas que estimulan el instinto cazador del gato."
+  },
+  {
+    "id": 6,
+    "nombre": "Collar con Cascabel",
+    "categoria": "accesorio",
+    "origen": "México",
+    "descripcion": "Collar ajustable con cascabel para localizar a tu gato fácilmente."
+  },
+  {
+    "id": 7,
+    "nombre": "Cepillo Removedor de Pelo",
+    "categoria": "higiene",
+    "origen": "Argentina",
+    "descripcion": "Cepillo suave que elimina el pelo muerto sin dañar la piel del gato."
+  },
+  {
+    "id": 8,
+    "nombre": "Comida Seca Premium - Sabor Salmón",
+    "categoria": "alimentación",
+    "origen": "Estados Unidos",
+    "descripcion": "Alimento balanceado con alto contenido proteico y omega 3 para gatos adultos."
+  },
+  {
+    "id": 9,
+    "nombre": "Cama Cueva Acolchada",
+    "categoria": "descanso",
+    "origen": "Argentina",
+    "descripcion": "Cama tipo cueva, suave y cálida. Proporciona un refugio seguro para el descanso del gato."
+  },
+  {
+    "id": 10,
+    "nombre": "Fuente de Agua Automática",
+    "categoria": "alimentación",
+    "origen": "Alemania",
+    "descripcion": "Fuente con filtrado continuo que incentiva a los gatos a beber más agua."
+  }
+]

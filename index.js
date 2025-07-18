@@ -1,81 +1,26 @@
 import express from 'express';
 
-
-import { readJSON } from './const.js';
-import { validatePerro } from './schemes/perro.js';
-
-const perros = readJSON('./json/perros.json');
+import { perroRouter } from './routes/perros.js';
+import { gatoRouter } from './routes/gatos.js';
+import { productoPerroRouter } from './routes/productosPerros.js';
+import { productoGatoRouter } from './routes/productosGatos.js';
 
 const app = express();
 
+const PORT = process.env.PORT ?? 3005;
 
 app.use(express.json()); //Middleware
 
-app.get('/', (req, res) => {
-    res.status(200).json ({ message: "Hola mundo" });
-})
+app.get('/', (req, res) => { res.send('Hola mundo'); });
 
-app.get('/perros', (req, res) => {
-    res.header('Access-Control-Allow-Origin', '*');
+app.use('/perros', perroRouter);
+app.use('/gatos', gatoRouter);
+app.use('/productosPerros', productoPerroRouter);
+app.use('/productosGatos', productoGatoRouter);
 
-   // const accessURLs = ['', '', '', ''];
-//
-   // const origin = req.origin;
-//
-   // if(accessURLs.includes(origin)){
-   //     res.header('Access-Control-Allow-Origin', origin);
-   // }
+app.use((req, res) =>{ res.status(404).json({ message: '404 NOT FOUND'}); });
 
-    res.status(200).json(perros);
-})
-
-app.get('/perros/:id', (req, res) => {
-    const { id } = req.params;
-
-    const perro = perros.find (p => p.id == id);
-
-    if(perro == null){
-        res.status(404).json({ message: "ERROR 404" });
-    }else{
-        res.status(200).json(perro); 
-    }
-})
-
-app.post('/perros', (req, res) => {
-
-    const response = validatePerro(req.body);
-
-    if(response.success){
-        perros.push(response.data);
-        res.status(201).json(response);
-    }else{
-        res.status(404).send(response.error.message);
-    }
-
-});
-
-app.options('/perros/:id', (req, res) => {
-     res.header('Access-Control-Allow-Origin', '*');
-     res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, PATCH, DELETE');
-});
-
-app.delete('/perros/:id', (req, res) => {
-    res.header('Access-Control-Allow-Origin', '*');
-    
-    const { id } = req.params;
-
-    const perro = perros.find(p => p.id == id)['nombre'];
-
-    heroes = heroes.filter(hero => hero.id != id);
-
-    if(perro == null) {
-        res.status(400).send({ message: 'ERROR' });
-        return;
-    }
-
-    res.status(200).send({ message: `Se borro a ${hero}`});
-})
 
 app.listen(3005, () => {
-    console.log(`Servidor en puerto http://localhost:3005`);
-})
+    console.log(`Servidor en puerto http://localhost:${PORT}`);
+});

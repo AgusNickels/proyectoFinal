@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "nombre": "Pelota de Goma con Sonido",
+    "categoria": "juguete",
+    "origen": "China",
+    "descripcion": "Pelota resistente con sonido interno que estimula el juego y el ejercicio físico."
+  },
+  {
+    "id": 2,
+    "nombre": "Correa Extensible 5m",
+    "categoria": "accesorio",
+    "origen": "Alemania",
+    "descripcion": "Correa retráctil que permite mayor libertad de movimiento durante los paseos."
+  },
+  {
+    "id": 3,
+    "nombre": "Shampoo Antipulgas",
+    "categoria": "higiene",
+    "origen": "Argentina",
+    "descripcion": "Fórmula suave que elimina pulgas y garrapatas, dejando el pelaje limpio y brillante."
+  },
+  {
+    "id": 4,
+    "nombre": "Comedero de Acero Inoxidable",
+    "categoria": "alimentación",
+    "origen": "Brasil",
+    "descripcion": "Duradero, fácil de lavar y resistente a bacterias. Base antideslizante."
+  },
+  {
+    "id": 5,
+    "nombre": "Casa Plástica para Exterior",
+    "categoria": "descanso",
+    "origen": "Argentina",
+    "descripcion": "Casa resistente al clima, ideal para perros que viven o descansan en patios o jardines."
+  },
+  {
+    "id": 6,
+    "nombre": "Juguete Mordedor con Cuerda",
+    "categoria": "juguete",
+    "origen": "México",
+    "descripcion": "Diseñado para fortalecer la mandíbula y mantener dientes limpios mientras juega."
+  },
+  {
+    "id": 7,
+    "nombre": "Alimento Balanceado Adulto - Carne",
+    "categoria": "alimentación",
+    "origen": "Estados Unidos",
+    "descripcion": "Comida seca completa para perros adultos, con alto contenido en proteínas."
+  },
+  {
+    "id": 8,
+    "nombre": "Cama Acolchada Reversible",
+    "categoria": "descanso",
+    "origen": "Argentina",
+    "descripcion": "Cama suave y lavable, ideal para todo tipo de razas. Diseño reversible verano/invierno."
+  },
+  {
+    "id": 9,
+    "nombre": "Collar Reflectante con Hebilla",
+    "categoria": "accesorio",
+    "origen": "China",
+    "descripcion": "Collar resistente y visible en la oscuridad, ideal para paseos nocturnos."
+  },
+  {
+    "id": 10,
+    "nombre": "Toallitas Húmedas para Perros",
+    "categoria": "higiene",
+    "origen": "Colombia",
+    "descripcion": "Prácticas para limpiar patas, orejas y pelaje. Suaves con la piel del animal."
+  }
+]
