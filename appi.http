@@ -1,0 +1,11 @@
+POST http://localhost:3005/perros
+Content-Type: application/json
+
+{
+  "id": -12,
+  "raza": 5,
+  "medida":6,
+  "origen": 5,
+  "descripcion": 65
+}
+

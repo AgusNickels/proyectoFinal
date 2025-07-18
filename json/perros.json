@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "raza": "Chihuahua",
+    "medida": "mini",
+    "origen": "México",
+    "descripcion": "Es una de las razas más pequeñas del mundo, valiente y muy alerta."
+  },
+  {
+    "id": 2,
+    "raza": "Pomerania",
+    "medida": "mini",
+    "origen": "Alemania",
+    "descripcion": "Perro muy peludo y enérgico, de carácter vivaz y leal."
+  },
+  {
+    "id": 3,
+    "raza": "Beagle",
+    "medida": "mediano",
+    "origen": "Reino Unido",
+    "descripcion": "Raza amigable y curiosa, excelente para familias y con gran olfato."
+  },
+  {
+    "id": 4,
+    "raza": "Bulldog Francés",
+    "medida": "pequeño",
+    "origen": "Francia",
+    "descripcion": "Compacto y musculoso, muy sociable y apegado a sus dueños."
+  },
+  {
+    "id": 5,
+    "raza": "Golden Retriever",
+    "medida": "grande",
+    "origen": "Escocia",
+    "descripcion": "Amable, inteligente y excelente con niños. Muy usado como perro de asistencia."
+  },
+  {
+    "id": 6,
+    "raza": "Labrador Retriever",
+    "medida": "grande",
+    "origen": "Canadá",
+    "descripcion": "Extremadamente amigable, leal y fácil de entrenar. Ideal como perro guía."
+  },
+  {
+    "id": 7,
+    "raza": "Dachshund",
+    "medida": "pequeño",
+    "origen": "Alemania",
+    "descripcion": "Conocido como 'perro salchicha', es curioso, terco y valiente."
+  },
+  {
+    "id": 8,
+    "raza": "Boxer",
+    "medida": "grande",
+    "origen": "Alemania",
+    "descripcion": "Perro muy activo, juguetón y protector de su familia."
+  },
+  {
+    "id": 9,
+    "raza": "Border Collie",
+    "medida": "mediano",
+    "origen": "Reino Unido",
+    "descripcion": "Muy inteligente y enérgico, ideal para tareas de pastoreo."
+  },
+  {
+    "id": 10,
+    "raza": "Shih Tzu",
+    "medida": "pequeño",
+    "origen": "China",
+    "descripcion": "Afectuoso y elegante, fue criado como perro de compañía imperial."
+  }
+]
